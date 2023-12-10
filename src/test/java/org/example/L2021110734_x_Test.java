@@ -23,7 +23,7 @@ public class L2021110734_x_Test {
     public void testFractionToDecimal_case2() {
         Solution1 solution = new Solution1();
         int numerator = 2;
-        int denominator = 1;
+        int denominator = 3;
         String expected = "2";
         String result = solution.fractionToDecimal(numerator, denominator);
         Assert.assertEquals(expected, result);
